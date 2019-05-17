@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Canny</string>
+
+    <!--Login Screen-->
+    <string name="WelcomeMessage">Welcome to </string>
+    <string name="Appname">Trolleyfy</string>
+    <string name="WelcomeMessage2">You Book ! We Deliver !</string>
+    <string name="SentOtp">Send OTP</string>
+    <string name="GetStarted">Get Started</string>
+    <string name="PhoneHint">Enter Your Number</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--LoginScreen-->
+    <dimen name="LoginImageWidth">254dp</dimen>
+    <dimen name="LoginImageHeight">198dp</dimen>
+    <dimen name="WelcomeTextSize">24sp</dimen>
+    <dimen name="GetStartedTextSize">12sp</dimen>
+    <dimen name="countryCodeTextSize">12sp</dimen>
+    <dimen name="phoneNumber">14sp</dimen>
+    <dimen name="SentOtpbtnWidth">188dp</dimen>
+    <dimen name="SentOtpbtnHeight">52dp</dimen>
+</resources>

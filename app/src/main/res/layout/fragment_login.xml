@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_height="match_parent"
+                                                   android:layout_width="match_parent">
+
+    <TextView android:layout_width="wrap_content" android:text="@string/WelcomeMessage"
+              android:layout_height="0dp"
+              style="@style/LoginScreenText"
+              app:layout_constraintTop_toTopOf="parent"
+              app:layout_constraintBottom_toTopOf="@+id/textView2"
+              android:layout_marginTop="51dp" app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintEnd_toEndOf="parent" android:layout_marginLeft="30dp"
+              android:layout_marginStart="30dp" android:layout_marginRight="30dp" android:layout_marginEnd="30dp"
+              app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="1.0"
+              android:id="@+id/textView3"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="0dp" android:text="@string/Appname"
+              android:textSize="@dimen/WelcomeTextSize"
+              android:textColor="@color/colorPrimary"
+              android:fontFamily="@font/montserrat_regular"
+              app:layout_constraintBaseline_toBaselineOf="@+id/textView3"
+              app:layout_constraintStart_toEndOf="@+id/textView3" android:layout_marginLeft="8dp"
+              android:layout_marginStart="8dp"/>
+    <TextView android:layout_width="match_parent" android:text="@string/WelcomeMessage2"
+              android:layout_height="wrap_content"
+              android:id="@+id/textView2"
+              style="@style/LoginScreenText"
+              android:layout_marginRight="30dp"
+              android:layout_marginEnd="30dp"
+              app:layout_constraintEnd_toEndOf="parent"
+              android:layout_marginBottom="84dp"
+              app:layout_constraintBottom_toTopOf="@+id/imageView"
+              app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="30dp"
+              android:layout_marginStart="30dp" app:layout_constraintHorizontal_bias="0.0"/>
+
+
+    <ImageView android:layout_width="@dimen/LoginImageWidth" android:layout_height="198dp"
+               app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+               android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+               android:layout_marginRight="8dp" android:id="@+id/imageView"
+               android:src="@drawable/ic_undraw_mobile_app_0irr" android:layout_marginBottom="46dp"
+               app:layout_constraintBottom_toTopOf="@+id/textView"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:fontFamily="@font/montserrat_semibold"
+              android:textColor="@color/Black"
+              android:text="+91 |"
+              android:textSize="@dimen/countryCodeTextSize"
+              tools:layout_editor_absoluteY="506dp" android:id="@+id/textView4"
+              app:layout_constraintStart_toStartOf="@+id/textView"
+    />
+
+
+    <EditText android:layout_width="0dp" android:layout_height="wrap_content" android:inputType="phone"
+              android:maxLines="1" android:maxLength="10" android:hint="@string/PhoneHint"
+              app:layout_constraintStart_toEndOf="@+id/textView4"
+              android:textSize="@dimen/phoneNumber"
+              android:layout_marginEnd="30dp" app:layout_constraintEnd_toEndOf="parent"
+              android:layout_marginRight="30dp" app:layout_constraintBaseline_toBaselineOf="@+id/textView4"
+              android:id="@+id/editText"/>
+
+    <TextView android:layout_width="match_parent" android:text="@string/GetStarted" android:layout_height="wrap_content"
+              android:layout_marginRight="30dp"
+              android:layout_marginEnd="30dp"
+              android:layout_marginLeft="30dp"
+              android:layout_marginStart="30dp"
+              android:textSize="@dimen/GetStartedTextSize"
+              android:textColor="@color/colorPrimary"
+              android:fontFamily="@font/montserrat_semibold"
+              app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+              android:id="@+id/textView" app:layout_constraintHorizontal_bias="0.0"
+              android:layout_marginBottom="32dp" app:layout_constraintBottom_toTopOf="@+id/editText"/>
+
+
+    <Button android:layout_width="@dimen/SentOtpbtnWidth"
+            android:text="@string/SentOtp"
+            android:foreground="#00000000"
+            android:layout_height="@dimen/SentOtpbtnHeight"
+            android:background="@drawable/rounded_button"
+            android:textAllCaps="false"
+            android:id="@+id/materialButton"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            android:layout_marginLeft="8dp" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="@+id/editText"
+            android:layout_marginRight="8dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/editText"
+            app:backgroundTint="@color/mtrl_dark_on_primary_disabled" app:backgroundTintMode="src_over"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
