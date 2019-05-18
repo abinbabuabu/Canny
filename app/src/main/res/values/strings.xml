@@ -2,11 +2,20 @@
     <string name="app_name">Canny</string>
 
     <!--Login Screen-->
-    <string name="WelcomeMessage">Welcome to </string>
+    <string name="WelcomeMessage">Welcome to</string>
     <string name="Appname">Trolleyfy</string>
     <string name="WelcomeMessage2">You Book ! We Deliver !</string>
     <string name="SentOtp">Send OTP</string>
     <string name="GetStarted">Get Started</string>
     <string name="PhoneHint">Enter Your Number</string>
+
+    <!--OTP screen-->
+    <string name="OtpScreenText1">Please wait while we are</string>
+    <string name="OtpScreenText2">auto verifying your</string>
+    <string name="OtpScreenText3">number</string>
+    <string name="Otpverifying">Verifying OTP...</string>
+    <string name="OtpbuttonTxt">Verify OTP</string>
+    <string name="OtpResend">Resend OTP</string>
+
 
 </resources>

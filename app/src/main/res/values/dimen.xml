@@ -9,4 +9,15 @@
     <dimen name="phoneNumber">18sp</dimen>
     <dimen name="SentOtpbtnWidth">188dp</dimen>
     <dimen name="SentOtpbtnHeight">52dp</dimen>
+
+
+    <!--OtpScreen-->
+    <dimen name="OTPWelcomeTextSize">24sp</dimen>
+    <dimen name="OtpTextMargin">30dp</dimen>
+    <dimen name="OtpImageWidth">274dp</dimen>
+    <dimen name="OtpImageHeight">190dp</dimen>
+    <dimen name="OtpSmallText">14sp</dimen>
+    <dimen name="OtpbuttonWidth">186dp</dimen>
+    <dimen name="OtpbuttonHeight">40dp</dimen>
+
 </resources>

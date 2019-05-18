@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
-            app:startDestination="@id/loginFragment">
+            app:startDestination="@id/OTP_Fragment">
 
     <fragment android:id="@+id/loginFragment" android:name="com.emilda.canny.Fragments.LoginFragment"
               android:label="LoginFragment"/>
+    <fragment android:id="@+id/OTP_Fragment" android:name="com.emilda.canny.OTP_Fragment" android:label="OTP_Fragment"/>
 </navigation>
