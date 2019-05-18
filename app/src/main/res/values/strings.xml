@@ -15,7 +15,7 @@
     <string name="OtpScreenText3">number</string>
     <string name="Otpverifying">Verifying OTP...</string>
     <string name="OtpbuttonTxt">Verify OTP</string>
-    <string name="OtpResend">Resend OTP</string>
+    <string name="OtpResend">Resend OTP ?</string>
 
 
 </resources>

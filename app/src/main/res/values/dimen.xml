@@ -17,7 +17,7 @@
     <dimen name="OtpImageWidth">274dp</dimen>
     <dimen name="OtpImageHeight">190dp</dimen>
     <dimen name="OtpSmallText">14sp</dimen>
-    <dimen name="OtpbuttonWidth">186dp</dimen>
-    <dimen name="OtpbuttonHeight">40dp</dimen>
+    <dimen name="OtpbuttonWidth">188dp</dimen>
+    <dimen name="OtpbuttonHeight">52dp</dimen>
 
 </resources>
