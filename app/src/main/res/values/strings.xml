@@ -13,9 +13,29 @@
     <string name="OtpScreenText1">Please wait while we are</string>
     <string name="OtpScreenText2">auto verifying your</string>
     <string name="OtpScreenText3">number</string>
-    <string name="Otpverifying">Verifying OTP...</string>
-    <string name="OtpbuttonTxt">Verify OTP</string>
+    <string name="OtpVerifying">Verifying OTP...</string>
+    <string name="OtpButtonTxt">Verify OTP</string>
     <string name="OtpResend">Resend OTP ?</string>
+
+    <!--MapScreen-->
+    <string name="title_activity_maps">Map</string>
+    <string name="MapCheckPin1">Please Enter Your</string>
+    <string name="MapCheckPin2">Pin Code</string>
+    <string name="MapButton">Check</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
 
 
 </resources>

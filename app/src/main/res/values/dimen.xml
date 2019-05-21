@@ -20,4 +20,9 @@
     <dimen name="OtpbuttonWidth">188dp</dimen>
     <dimen name="OtpbuttonHeight">52dp</dimen>
 
+    <!--MapScreen-->
+    <dimen name="MapWidth">288</dimen>
+    <dimen name="MapHeight">256</dimen>
+    <dimen name="MapTextSize">28sp</dimen>
+
 </resources>
