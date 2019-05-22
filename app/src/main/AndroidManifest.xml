@@ -19,9 +19,14 @@
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning,InnerclassSeparator">
         <activity
-                android:name=".NavigationActivity"
+                android:name=".Activity.NavigationActivity"
                 android:label="@string/title_activity_navigation"
                 android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -38,11 +43,6 @@
         <activity
                 android:name=".Activity.MapsActivity"
                 android:label="@string/title_activity_maps">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
         <activity android:name=".Activity.OtpActivity">
         </activity>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "836160538047",
+    "firebase_url": "https://canny-27fde.firebaseio.com",
+    "project_id": "canny-27fde",
+    "storage_bucket": "canny-27fde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836160538047:android:62d987f092872ac5",
+        "android_client_info": {
+          "package_name": "com.emilda.canny"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836160538047-dcg0i44gh6fvk7eai0uj4vtijagikih2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.emilda.canny",
+            "certificate_hash": "0a81f1ad34e21ecc3cc854321a29d547f92b7885"
+          }
+        },
+        {
+          "client_id": "836160538047-ct3p5ofj9p8ppo9saojblge0vnj08d1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzsSuEnHDbIZ3Q-dY_44cISP3q6m-a_a8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836160538047-ct3p5ofj9p8ppo9saojblge0vnj08d1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

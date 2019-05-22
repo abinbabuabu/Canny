@@ -20,7 +20,33 @@
             android:layout_height="match_parent"
             android:layout_gravity="start"
             android:fitsSystemWindows="true"
+            app:itemIconSize="20dp"
+            app:itemTextAppearance="@style/NavigationDrawer"
             app:headerLayout="@layout/nav_header_navigation"
-            app:menu="@menu/activity_navigation_drawer"/>
+            app:menu="@menu/activity_navigation_drawer"
+
+    >
+        <RelativeLayout android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_height="match_parent">
+            <com.google.android.material.button.MaterialButton android:layout_width="@dimen/NavLogoutButtonWidth"
+                                                               android:layout_height="@dimen/NavLogoutButtonHeight"
+                                                               android:backgroundTint="@color/White"
+                                                               app:rippleColor="@color/colorPrimary"
+                                                               android:textStyle="bold"
+                                                               android:fontFamily="@font/montserrat_semibold"
+                                                               android:textColor="@color/colorAccent"
+                                                               android:text="@string/Nav_logout"
+                                                               android:textAllCaps="false"
+                                                               app:strokeColor="@color/colorAccent"
+                                                               app:strokeWidth="2dp"
+                                                               android:layout_alignParentBottom="true"
+                                                               android:layout_centerInParent="true"
+
+            />
+        </RelativeLayout>
+
+    </com.google.android.material.navigation.NavigationView>
+
 
 </androidx.drawerlayout.widget.DrawerLayout>

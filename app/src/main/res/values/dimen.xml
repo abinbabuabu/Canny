@@ -25,4 +25,10 @@
     <dimen name="MapHeight">256</dimen>
     <dimen name="MapTextSize">28sp</dimen>
 
+    <!--Navigation Drawer-->
+    <dimen name="NavprofileIconDimen">92dp</dimen>
+    <dimen name="NavTitleTextSize">16sp</dimen>
+    <dimen name="NavLogoutButtonWidth">174dp</dimen>
+    <dimen name="NavLogoutButtonHeight">52dp</dimen>
+
 </resources>
