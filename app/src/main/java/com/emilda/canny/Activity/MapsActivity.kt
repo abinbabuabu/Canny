@@ -1,5 +1,6 @@
 package com.emilda.canny.Activity
 
+import android.content.Intent
 import android.graphics.Color
 import android.location.Geocoder
 import androidx.appcompat.app.AppCompatActivity
@@ -73,6 +74,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                 val marker =LatLng(lat,lng)
                 mMap.addMarker(MarkerOptions().position(marker).title("Your Location"))
                 mMap.moveCamera(CameraUpdateFactory.newLatLng(marker))
+                startActivity(Intent(this,NavigationActivity::class.java))
             }
         }
 

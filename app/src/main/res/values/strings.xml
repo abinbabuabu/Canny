@@ -38,8 +38,9 @@
     <string name="menu_customer_support">Customer Support</string>
     <string name="Nav_logout">Logout</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Bottom Sheet-->
+    <string name="bottom_order_info">Order Information</string>
+    <string name="bottom_address">Address</string>
 
 
 </resources>

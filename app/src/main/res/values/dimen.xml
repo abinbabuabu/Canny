@@ -31,4 +31,8 @@
     <dimen name="NavLogoutButtonWidth">174dp</dimen>
     <dimen name="NavLogoutButtonHeight">52dp</dimen>
 
+    <!--Bottom Sheet-->
+    <dimen name="bottom_padding">20dp</dimen>
+    <dimen name="bottom_recycle_view_height">80dp</dimen>
+
 </resources>

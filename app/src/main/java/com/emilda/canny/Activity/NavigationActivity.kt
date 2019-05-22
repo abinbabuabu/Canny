@@ -14,7 +14,10 @@ import androidx.annotation.RequiresApi
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
+import com.emilda.canny.Fragments.OrderBottomSheet
 import com.emilda.canny.R
+import com.google.android.material.bottomsheet.BottomSheetDialog
+import kotlinx.android.synthetic.main.fragment_main_screen.*
 
 class NavigationActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
     lateinit var NavController:NavController
@@ -44,6 +47,10 @@ class NavigationActivity : AppCompatActivity(), NavigationView.OnNavigationItemS
         NavigationUI.setupActionBarWithNavController(this,NavController,drawerLayout)
         NavigationUI.setupWithNavController(navView,NavController)
         navView.setNavigationItemSelectedListener(this)
+
+
+
+
     }
 
     override fun onBackPressed() {

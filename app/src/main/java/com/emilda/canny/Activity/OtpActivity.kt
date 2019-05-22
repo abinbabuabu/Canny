@@ -1,5 +1,6 @@
 package com.emilda.canny.Activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -96,8 +97,10 @@ class OtpActivity : AppCompatActivity() {
             .addOnCompleteListener{ task ->
                 if (task.isSuccessful) {
                     // Sign in success, update UI with the signed-in user's information
+                    //Replace With SnackBar
                     Toast.makeText(this,"Otp Verified Sucessfully", Toast.LENGTH_LONG).show()
                     Log.d("success", "signInWithCredential:success")
+                    startActivity(Intent(this,MapsActivity::class.java))
 
                     val user = task.result?.user
                     Log.d("User",user?.phoneNumber)
