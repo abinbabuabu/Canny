@@ -26,9 +26,10 @@ class OrderBottomSheet : RoundedBottomSheet(){
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        address_recycler.layoutManager = LinearLayoutManager(context)
-        address_recycler.adapter = AddressAdapter()
-
+        val  addressAdapter = AddressAdapter()
+        address_recycler.layoutManager = LinearLayoutManager(context,LinearLayoutManager.HORIZONTAL,false)
+        address_recycler.adapter = addressAdapter
+        address_recycler.setHasFixedSize(true)
     }
 
 

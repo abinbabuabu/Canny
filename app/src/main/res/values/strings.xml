@@ -41,6 +41,17 @@
     <!--Bottom Sheet-->
     <string name="bottom_order_info">Order Information</string>
     <string name="bottom_address">Address</string>
+    <string name="bottom_delivery_slot">Delivery Slot</string>
+    <string name="bottom_quantity">Quantity</string>
+    <string name="bottom_price">Price</string>
+    <string name="bottom_payment_method_text">Preferred Payment Method</string>
+    <string name="bottom_payment_cash">Cash On Delivery</string>
+    <string name="bottom_payment_online">Online Payment</string>
+    <string name="bottom_book">Book Now</string>
+
+    <!--Feedback -->
+
+    <string name="feedback_title">Feedback</string>
 
 
 </resources>

@@ -7,7 +7,7 @@ import android.widget.LinearLayout
 import androidx.recyclerview.widget.RecyclerView
 import com.emilda.canny.R
 
-class AddressAdapter() :RecyclerView.Adapter<AddressAdapter.mViewHolder> (){
+class AddressAdapter :RecyclerView.Adapter<AddressAdapter.mViewHolder> (){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): mViewHolder {
         val v = LayoutInflater.from(parent.context).inflate(R.layout.address_row,parent,false)

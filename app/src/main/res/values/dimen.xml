@@ -32,7 +32,13 @@
     <dimen name="NavLogoutButtonHeight">52dp</dimen>
 
     <!--Bottom Sheet-->
+    <dimen name="bottom_margin_top">18dp</dimen>
     <dimen name="bottom_padding">20dp</dimen>
-    <dimen name="bottom_recycle_view_height">80dp</dimen>
+    <dimen name="bottom_recycle_view_height">100dp</dimen>
+    <dimen name="bottom_address_row_width">186dp</dimen>
+    <dimen name="bottom_price_text_size">24sp</dimen>
+    <dimen name="bottom_payment_opt_text">12sp</dimen>
+    <dimen name="btm_btn_width">188dp</dimen>
+    <dimen name="btm_btn_height">52dp</dimen>
 
 </resources>

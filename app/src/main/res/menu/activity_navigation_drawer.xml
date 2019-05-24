@@ -17,14 +17,17 @@
                 android:icon="@drawable/ic_customer_support"
                 android:title="@string/menu_customer_support"/>
         <item
-                android:id="@+id/menu_rate_us"
-                android:icon="@drawable/ic_rate"
-                android:title="@string/menu_rate"/>
-        <item
                 android:id="@+id/menu_feedback"
                 android:icon="@drawable/ic_feedback"
                 android:title="@string/menu_feedback"/>
+
     </group>
+    <item android:title="Communicate">
+        <item
+                android:id="@+id/menu_rate_us"
+                android:icon="@drawable/ic_rate"
+                android:title="@string/menu_rate"/>
+    </item>
 
     <!--<item android:title="Communicate">-->
         <!--<menu>-->

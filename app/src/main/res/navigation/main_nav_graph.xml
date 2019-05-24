@@ -5,4 +5,11 @@
 
     <fragment android:id="@+id/main_screen" android:name="com.emilda.canny.Fragments.main_screen"
               android:label="Store"/>
+
+    <fragment android:id="@+id/feedbackFragment"
+              android:name="com.emilda.canny.Fragments.FeedbackFragment"
+              android:label="Feedback">
+        <action android:id="@+id/action_feedbackFragment_to_main_screen3" app:destination="@id/main_screen"
+                app:popUpTo="@id/main_screen" app:launchSingleTop="true"/>
+    </fragment>
 </navigation>
