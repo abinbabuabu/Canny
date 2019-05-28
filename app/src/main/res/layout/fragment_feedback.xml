@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_marginTop="40dp"
+              android:layout_margin="16dp"
               android:layout_width="match_parent"
               android:orientation="vertical"
               android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatImageButton android:layout_width="40dp"
+                                                    android:src="@drawable/ic_arrow_back"
+                                                    android:layout_height="40dp"
+                                                    android:clickable="true"
+                                                    android:layout_gravity="start"
+                                                    android:focusable="true"
+                                                    android:background="?attr/selectableItemBackgroundBorderless"
+                                                    android:id="@+id/back_button_feedback"/>
     <TextView android:layout_width="match_parent"
               android:text="@string/feedback_title"
-              android:layout_margin="20dp"
               style="@style/BlackText"
               android:gravity="center"
               android:layout_height="wrap_content"/>
 
+    <ImageView android:layout_width="100dp"
+               android:layout_gravity="center"
+               android:src="@drawable/ic_undraw_typing_jie3"
+               android:layout_height="100dp"/>
+
     <com.google.android.material.textfield.TextInputLayout
-            android:layout_marginTop="16dp"
             android:layout_margin="20dp"
+            android:layout_marginTop="8dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
             android:layout_width="match_parent"
             android:layout_height="100dp">
         <com.google.android.material.textfield.TextInputEditText
                 android:gravity="top"
-                android:hint="Comment"
+                android:hint="Comments"
+                android:id="@+id/feeback_comments"
                 android:layout_width="match_parent"
                 android:inputType="textMultiLine"
                 android:layout_height="match_parent"/>
@@ -27,9 +40,15 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
+            android:layout_margin="20dp"
+            android:layout_marginTop="8dp"
             android:layout_width="@dimen/NavLogoutButtonWidth"
             android:text="Send Us"
-            android:layout_margin="20dp"
             android:layout_height="@dimen/NavLogoutButtonHeight"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_margin="20dp"
+              android:text="“We all need people who will give us feedback. That’s how we improve.”"
+              android:layout_height="match_parent"/>
 
 </LinearLayout>

@@ -7,6 +7,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:fontFamily">@font/montserrat_light</item>
         <item name="fontFamily">@font/montserrat_light</item>
+        <item name="android:iconifiedByDefault">false</item>
     </style>
 
     <style name="ButtonText" parent="TextAppearance.MaterialComponents.Button">
@@ -47,8 +48,7 @@
         <item name="windowNoTitle">true</item>
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light">
-        <item name="android:homeAsUpIndicator">@drawable/ic_rate</item>
-        <item name="android:iconifiedByDefault">false</item>
+
     </style>
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark">
 

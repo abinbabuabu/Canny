@@ -2,25 +2,20 @@ package com.emilda.canny.Fragments
 
 
 import android.os.Bundle
-import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.activity.OnBackPressedCallback
+import androidx.appcompat.widget.Toolbar
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.emilda.canny.Activity.NavigationActivity
-
 import com.emilda.canny.R
+import kotlinx.android.synthetic.main.fragment_feedback.*
 
-class FeedbackFragment : Fragment(),OnBackPressedCallback {
+class FeedbackFragment : Fragment() {
 
-    override fun handleOnBackPressed(): Boolean {
-        findNavController().navigate(R.id.main_screen)
-        return true
-    }
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -30,21 +25,21 @@ class FeedbackFragment : Fragment(),OnBackPressedCallback {
         return inflater.inflate(R.layout.fragment_feedback, container, false)
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        activity?.addOnBackPressedCallback(viewLifecycleOwner,this)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val toolbar:Toolbar= activity!!.findViewById(R.id.toolbar)
+        toolbar.visibility = View.GONE
+
+        back_button_feedback.setOnClickListener {
+            activity?.onBackPressed()
+        }
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-        activity?.removeOnBackPressedCallback(this)
-    }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when(item.itemId){
             R.id.home ->{
                 Toast.makeText(context,"Clicked",Toast.LENGTH_LONG).show()
-                handleOnBackPressed()
                 true
             }
 
@@ -53,11 +48,6 @@ class FeedbackFragment : Fragment(),OnBackPressedCallback {
 
     }
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-        activity?.actionBar?.hide() ?: Log.d("action","No action bar")
-    }
 }
 
 
